@@ -1,0 +1,22 @@
+.camera-icon {
+    position: absolute;
+    bottom: 3px;
+    right: 0;  
+    
+    cursor: pointer;
+}
+
+input, select{
+    &:disabled {
+        background-color: transparent;
+    }
+}
+
+select{
+    &:disabled{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+}
